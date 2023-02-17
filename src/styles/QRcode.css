@@ -1,0 +1,39 @@
+.qr-code{
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.qr-code-style{
+   width: 300px;
+   text-align: center;  
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+h3,p{
+    text-indent: 1.5%;
+    padding: 0 15px;
+    
+}
+p{
+    color: hsl(218, 44%, 22%);
+    font-weight: 400;
+}
+@media (max-width: 375px){
+        h3,
+        p {
+            padding: 0 5px;
+        }
+        h3{
+            text-indent: 10%;
+            font-weight: 700;
+        }
+        p{
+            text-indent: 1%;
+            font-size: 1rem;
+            color: hsl(220, 15%, 55%);
+        }
+}
